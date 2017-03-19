@@ -1,0 +1,3 @@
+Q: What happens when you initialize a repository? Why do you need to do it?
+	An hidden folder .git is created and the directory is now treated as a git repository. 
+	Because this folder stores all the commit history and stuff.
