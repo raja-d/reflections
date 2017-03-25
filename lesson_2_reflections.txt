@@ -7,3 +7,23 @@ Q: How is the staging area different from the working directory and the reposito
 
 	Staging area is the middle stage which tracks which files will be addes to repository after commit. 
 	After commit it changes to repository. Working directory is normal directory without history. 
+
+Q: How can you use the staging area to make sure you have one commit per logical change?
+
+	We can check changes added to staging area with git diff --staged and thus we make sure only one important change is added before commiting the staging area to repository.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+	When experimenting with different approaches for a solution. Branches help take kind of more than one instance of directory and experiment with different approaches.
+
+Q: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+	Two different features that were being worked differently at the same time can be merged into one code.
+	Because it goes in the same flow like.
+
+Q: What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+	Automatic- 
+	pros- less overhead of manual checking cons- uncompatible codes can be merged 
+	Manual-
+	pros- always on the safer side of code being workable cons-more overhead
